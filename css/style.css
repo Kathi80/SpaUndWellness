@@ -635,6 +635,16 @@ footer > section {
         margin-left: 10px; 
         
     }
+    /*Nested menu*/
+
+.nested-menu {
+    width: auto;
+}
+
+.nested-menu li {
+    font-size: 9px;
+    padding: 8px 10px;
+}
     
 }
    
