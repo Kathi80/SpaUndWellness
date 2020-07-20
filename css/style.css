@@ -452,12 +452,12 @@ footer > section {
     text-transform: none;
     position: absolute;
     top: 40px;
-    width: 200px;
+    width: 150px;
     display: none;
 }
 
 .nested-menu li {
-    font-size: 9px;
+    font-size: 10px;
     padding: 10px 15px;
     color: #444444;
     cursor: pointer;
