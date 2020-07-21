@@ -17,7 +17,24 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
     
-  
+    // read more-less
+    const readMoreLessBtns = document.querySelectorAll(".read-more-less-btn");
+    
+    function showHideText() {
+        const siblingText = this.previousElementSibling;
+
+        if (siblingText.style.display === "none" || siblingText.style.display === "") {
+            siblingText.style.display = "block";
+            this.textContent = "read less";
+        } else {
+            siblingText.style.display = "none";
+            this.textContent = "read more";
+        }
+    }
+
+    for (let i = 0; i < readMoreLessBtns.length; i++) {
+        readMoreLessBtns[i].addEventListener("click", showHideText);
+    }
     
 
     
