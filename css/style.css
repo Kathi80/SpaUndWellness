@@ -98,8 +98,11 @@ nav li {
     color: #444444;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     
+}
+.points {
+    margin-left: 80px;
 }
 .points h3 {
     font-family: "Times New Roman", serif;
@@ -129,6 +132,10 @@ nav li {
 
 .image img {
     border-radius: 5px;
+    width: 50%;
+    height: 50%;
+    margin-left: 200px;
+    margin-top: 50px;
 }
 
     
@@ -518,6 +525,9 @@ footer > section {
     
     .image img {
         display: none;
+    }
+    .points {
+        margin-left: 40px;
     }
     .points h3 {
         margin: 8px 0 15px 0;
